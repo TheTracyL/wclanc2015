@@ -33,6 +33,25 @@ body {
   line-height: 1.3;
   font-weight: inherit; }
 
+.reveal section img.no-border {
+  background: transparent;
+  border: 0;  
+  -webkit-box-shadow: none;
+  box-shadow: none;
+}
+
+/* Helpers */
+
+.text-center {
+  text-align: center;
+}
+
+.reveal section img.img-center {
+  display: block;
+  margin: auto;
+}
+
+
 /*********************************************
  * HEADERS
  *********************************************/
